@@ -20,7 +20,7 @@
 <meta property="og:description" content="每次只要是凌晨醒来，然后又睡过去后，就会做梦，凭着模糊的记忆会把梦记在备忘里，那种真实又不真实的感觉 真是太美好了。 20177.31 梦见喜欢的女孩子靠在自己身上 8.1 梦见自己开车开得特别6 8.4 梦见外公和一些不认识的人 应该都是是认识外公的 梦见和外公一起干活，在很脏很臭的地方，是在外公以前住的地方 7.26 梦见去了韩国惠化洞 买了一瓶水 刷新信用卡 wdollars（写错，23:4">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://i.loli.net/2019/10/02/zqZmNQSiweYWjRA.jpg">
-<meta property="og:updated_time" content="2019-10-02T11:16:20.065Z">
+<meta property="og:updated_time" content="2019-10-02T11:18:14.413Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="梦">
 <meta name="twitter:description" content="每次只要是凌晨醒来，然后又睡过去后，就会做梦，凭着模糊的记忆会把梦记在备忘里，那种真实又不真实的感觉 真是太美好了。 20177.31 梦见喜欢的女孩子靠在自己身上 8.1 梦见自己开车开得特别6 8.4 梦见外公和一些不认识的人 应该都是是认识外公的 梦见和外公一起干活，在很脏很臭的地方，是在外公以前住的地方 7.26 梦见去了韩国惠化洞 买了一瓶水 刷新信用卡 wdollars（写错，23:4">
@@ -130,6 +130,24 @@ var themeMenus = {};
   </div>
 </header>
 
+
+  <div style="background: #fff; width: 100%;">
+
+      <div style="max-height:600px; overflow: hidden;  display: flex; display: -webkit-flex; align-items: center;">
+        <img id="originBg" width="100%" alt src>
+      </div>
+
+  </div>
+
+  <script>
+      var imgUrls = "css/images/pose.jpg,https://source.unsplash.com/collection/954550/1920x1080".split(",");
+      var random = Math.floor((Math.random() * imgUrls.length ));
+      if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+        document.getElementById("originBg").src=imgUrls[random];
+      } else {
+        document.getElementById("originBg").src='/' + imgUrls[random];
+      }
+  </script>
 
 
 
