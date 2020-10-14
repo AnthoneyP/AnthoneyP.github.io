@@ -48,11 +48,11 @@
      var titleTime;
      document.addEventListener('visibilitychange', function() {
          if (document.hidden) {
-             document.title = "￣へ￣死鬼去哪里啦！ " + OriginTitile;
+             document.title = "" + OriginTitile;
              clearTimeout(titleTime);
          }
          else {
-             document.title = "(*´∇｀*) 咦，回来啦~ " + OriginTitile;
+             document.title = "" + OriginTitile;
              titleTime = setTimeout(function() {
                  document.title = OriginTitile;
              }, 2000);
