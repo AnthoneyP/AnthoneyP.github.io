@@ -58,9 +58,9 @@ h6 {
 /* Links */
 a {
 	outline: none;
-	-webkit-transition: all 0.14s ease 0s; 
-	   -moz-transition: all 0.14s ease 0s; 
-		 -o-transition: all 0.14s ease 0s; 
+	-webkit-transition: all 0.14s ease 0s;
+	   -moz-transition: all 0.14s ease 0s;
+		 -o-transition: all 0.14s ease 0s;
 	}
 
 a:hover,
