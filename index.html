@@ -207,6 +207,24 @@ var themeMenus = {};
 </header>
 
 
+  <div style="background: #fff; width: 100%;">
+
+      <div style="max-height:600px; overflow: hidden;  display: flex; display: -webkit-flex; align-items: center;">
+        <img id="originBg" width="100%" alt src>
+      </div>
+
+  </div>
+
+  <script>
+      var imgUrls = "[object Object]".split(",");
+      var random = Math.floor((Math.random() * imgUrls.length ));
+      if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+        document.getElementById("originBg").src=imgUrls[random];
+      } else {
+        document.getElementById("originBg").src='/' + imgUrls[random];
+      }
+  </script>
+
 
 
   <div id="container">
@@ -407,6 +425,11 @@ var themeMenus = {};
 <p>做了梦，记不得了</p>
 <p>10.16</p>
 <p>梦见和表弟在韩国店吃东西，点了排骨和拉面</p>
+<h2 id="2021"><a href="#2021" class="headerlink" title="2021"></a>2021</h2><p>3.13</p>
+<p>梦见前女友变成了一只白鲸，但是在河里游着，我在河边小路追了好久才追上</p>
+<p>3.14</p>
+<p>连着两天梦见前女友了</p>
+<p>3.15</p>
 
       
     </div>
@@ -923,7 +946,7 @@ var themeMenus = {};
 
   <div class="clearfix container">
       <div class="site-info">
-	      &copy; 2020 Proudly powered by <a href="https://github.com/anthoneyp" target="_blank">anthoney</a>
+	      &copy; 2021 Proudly powered by <a href="https://github.com/anthoneyp" target="_blank">anthoney</a>
           
       </div>
       <div class="site-credit">

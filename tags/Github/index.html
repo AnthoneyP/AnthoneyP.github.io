@@ -207,6 +207,24 @@ var themeMenus = {};
 </header>
 
 
+  <div style="background: #fff; width: 100%;">
+
+      <div style="max-height:600px; overflow: hidden;  display: flex; display: -webkit-flex; align-items: center;">
+        <img id="originBg" width="100%" alt src>
+      </div>
+
+  </div>
+
+  <script>
+      var imgUrls = "[object Object]".split(",");
+      var random = Math.floor((Math.random() * imgUrls.length ));
+      if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+        document.getElementById("originBg").src=imgUrls[random];
+      } else {
+        document.getElementById("originBg").src='/' + imgUrls[random];
+      }
+  </script>
+
 
 
   <div id="container">
@@ -479,7 +497,7 @@ var themeMenus = {};
 
   <div class="clearfix container">
       <div class="site-info">
-	      &copy; 2020 Proudly powered by <a href="https://github.com/anthoneyp" target="_blank">anthoney</a>
+	      &copy; 2021 Proudly powered by <a href="https://github.com/anthoneyp" target="_blank">anthoney</a>
           
       </div>
       <div class="site-credit">
